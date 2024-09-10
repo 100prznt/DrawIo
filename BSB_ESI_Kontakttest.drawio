@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12">
   <diagram name="Seite-1" id="_-0ManKLmbABRBJCGy79">
-    <mxGraphModel>
+    <mxGraphModel dx="1795" dy="1231" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1VgYTa6rDNXpI78hPuAf-1" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-284" y="-108" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1VgYTa6rDNXpI78hPuAf-2" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.singleSwitch;aspect=fixed;elSwitchState=off;" vertex="1" parent="1">
+          <mxGeometry x="75" y="31" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1VgYTa6rDNXpI78hPuAf-3" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.singleSwitch;aspect=fixed;elSwitchState=off;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="99" y="201" width="20" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="1VgYTa6rDNXpI78hPuAf-4" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.singleSwitch;aspect=fixed;elSwitchState=off;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="-147" y="201" width="20" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="1VgYTa6rDNXpI78hPuAf-5" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=ideal;" vertex="1" parent="1">
+          <mxGeometry x="-167" y="-88" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1VgYTa6rDNXpI78hPuAf-6" value="V" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-182" y="360" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1VgYTa6rDNXpI78hPuAf-7" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="427" y="111" width="15" height="15" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

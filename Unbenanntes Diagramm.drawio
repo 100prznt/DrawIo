@@ -1,9 +1,76 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.0.6">
   <diagram name="Seite-1" id="GB7-_zBIalE6K8HkmJud">
-    <mxGraphModel>
+    <mxGraphModel dx="1177" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="39O0XC9X80P_s8qnNYdj-11" value="Unmanaged Windows OS" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="380" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.windows_server;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-11">
+          <mxGeometry x="40" y="15" width="66.18" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.skype_for_business_server_management_tool;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-11">
+          <mxGeometry x="80" y="100" width="142" height="94.67" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="39O0XC9X80P_s8qnNYdj-11" source="39O0XC9X80P_s8qnNYdj-3" target="39O0XC9X80P_s8qnNYdj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-3" value="Pseudouser" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.skype_commercial_user;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-11">
+          <mxGeometry x="292" y="119.33000000000003" width="59" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-20" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.ucma_application;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-11">
+          <mxGeometry x="80" y="300" width="92.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-21" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="39O0XC9X80P_s8qnNYdj-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="125.96" y="296.67" as="sourcePoint" />
+            <mxPoint x="125.96" y="196.67000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-12" value="Managed Windows OS" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="380" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-12">
+          <mxGeometry x="40" y="24" width="62.88" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-13" value="" style="group" vertex="1" connectable="0" parent="39O0XC9X80P_s8qnNYdj-12">
+          <mxGeometry x="-10" y="110" width="203.1300000000001" height="127.75999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-6" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=stencil(nVnLcttIDPwaXafmwXkds87uD+xhz4qtXauiUCrJTuy/X1DkAEzDdllTlVJcoIZsAj2NxmgT7i6P29Nu4+32ctrdP23C1433P7fn/fbbgcKerjzOwejMEObIuP2xm4N/f3+9rv73eKbPP54v+3F3udCf/+y+0eeX04k+7w773fg0L708nY/fd7/2D0/Lbffj4+68X67+mmPFGuunSPhzY79QfPoX7u6P40gY98fxco39BdcJxO6/8/F5fPjtAl/eHw7z499Y3b40f+H+eLi+0Pz/FdN4HJd8vLd0uv8bCzc+WLt9mPLx0erTdsqIutAu/zj+nGC/zPfMzpSlFq9zxCVTykdP4CQ+n+c7ueVW1sQ4L3zxcygVU5e7v4QllE0YlgcuC102aYl4juQFw2vgUOyClSKzjWEFfkWGFcxQFazgAFcygwNc0VjXhSuYoHFFTNdgXABcAy9kXEGqGDjUqnEjroETzbjoHREXZTUCLkqhgjUoVDl3VrEkQJWM94pcDslFCQRU9DYIi95m6IJFREVYhbnLsKqJCCuajEWkV/QKV2cRqzDc8/ZsdG64KJS8wjV4hctjvgaT+jTCGZsUroTkIvRug+QqWbHLRsDlTemrYxEuCekr0itqenkTKuDyS89Z4XKsLjdvxoy4aPsr7aoJYDnjkV7WVEwXUaJvNwYt9RTKCleCMlaTQCOoQwC5CtPtZlCNNatcDQhK9LqBSpKYtg51K3FJb5atipjocUq1CtAqSp/xLeJB4YmMfdpQTELNqqp407YsCMoWBOUSgmod7GZhQF3wqhlSqEbEVABTMgGsQ+a9fSOmwDlnUMG4okAlqF4WIWeWs0owy3NX9ehxbXswKKczRZsd7EwRkfBtM7qIoPo81mT9MFNWlF5kPSEmCyqVmYhSvT41qNwdVp15gA5IWy+BvcpcYcFkNaP6PJ8sXMmBan9EYY+ggkdQ6ERLJ83pcS4rUFElymlCQaIqt5OGiSre618GwESEcshy6nL5d1BTS9ONz+MwYU1X36PNNwCpSBGUrRIbv+rHDnoMhQpkixxNF62yNNoVrFgVLK8te0HPLvZ/5UJDn6gH7rUrVW9quapiwXSJ21+NXqjrn59UD8fL+6N6+xYMxmJL22BcGefNrMENlmWG4zQk2T3LQm9VeTxRHjoJ4Up9uLJM5w2XdADGlcXOtvIUo2cXRBV6nUBW9oRSk5E02ltO+1z5uAwdbugc9IgObwx66AUm3YRckWIAk73JoNyh113SXsV24nlEYVBWEcvxVMEF5NcTUH3SHbW9jPUtUDhKRQMDXlFzVP2kEB3242or0+PZDAlVuhpArGhT6UUK9spVhUVoA46vSQYROePqM4WrU6JVCx/0WK2O3iq7NKan5Kbh8vazBO0TWnYyrHFD31iaucuuJkCL45aTw8W2Sb3UQoTWYnvuGuGJMh5AxcxzTANFuybiJl2plxx5BJhMe8WfMGBTolBEWFXByorJfCDBfDE+ddXPyRi6muDRsycZr5aFVh1aWSgdm4ebZd9ii/SmoLOKbOsFkTquEs0Vhe1KEzVppHmuMhUG/laCcSsZyFI1WbftvimiiEasQCGfshzurLxeRJoXJtDK5NQ+O5HUHDh5UMS1EiHRBKggRQoo9uel6kNlDHcUf+d3m/nnoDeWXhepX6qu0fmnuGvgfw==);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-13">
+          <mxGeometry y="19.99809523809523" width="169.0356949376994" height="107.76190476190477" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.audio_conferencing_application;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-13">
+          <mxGeometry x="90" width="113.13" height="88.2" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-14" value="Skype for Business" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-13">
+          <mxGeometry x="109.03999999999996" y="97.75999999999999" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="39O0XC9X80P_s8qnNYdj-12" source="39O0XC9X80P_s8qnNYdj-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200.00000000000023" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-2" value="Coperate User" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.skype_for_business_user;" vertex="1" parent="39O0XC9X80P_s8qnNYdj-12">
+          <mxGeometry x="290" y="120.00000000000003" width="59" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-15" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.skype_for_business_persistent_chat_server;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-270" width="158.28" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;endArrow=block;endFill=1;startArrow=block;startFill=1;strokeWidth=2;" edge="1" parent="1" source="39O0XC9X80P_s8qnNYdj-5" target="39O0XC9X80P_s8qnNYdj-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="231" y="-190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39O0XC9X80P_s8qnNYdj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="39O0XC9X80P_s8qnNYdj-9" target="39O0XC9X80P_s8qnNYdj-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="657" y="-190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
